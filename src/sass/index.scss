@@ -1,0 +1,117 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .heading{
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+  }
+  .sub-heading{
+    margin-top: -15px;
+    font-family: system-ui, sans-serif;
+  }
+}
+.logo{
+  width: 150px;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 2px 3px 10px 2px rgba(137, 136, 136, 0.5);
+}
+
+.input {
+  width: 320px;
+  height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgb(63, 146, 194);
+  border-radius: 5px;
+  background: white;
+  color: rgb(87, 85, 85);
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+input:focus {
+  border: 2px solid rgb(31, 163, 239);
+}
+.btn {
+  width: 260px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+}
+.signIn{
+  margin-left: 45px;
+  background-color: rgb(31, 163, 239) ;
+}
+.signIn:hover{
+  background-color: rgb(30, 139, 234);
+  box-shadow: 1px 1px 2px 1px rgb(9, 106, 210) ;
+  transition: 0.2s linear ;
+}
+.signIn:active{
+  background-color: rgb(3, 86, 160);
+  box-shadow: 1px 1px 2px 1px rgb(5, 90, 181) ;
+  transition: 0.3s all ;
+}
+.gooleSign{
+  position: relative;
+  margin-left: 45px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+.gooleSign:hover{
+  border: none;
+  color: white;
+  background-color: rgb(31, 163, 239)  ;
+  box-shadow: 1px 1px 2px 1px rgb(9, 106, 210) ;
+  transition: 0.2s linear ;
+  .googleicon{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1px 2px;
+  }
+}
+.gooleSign:active{
+  background-color:  rgb(8, 123, 190) ;
+  box-shadow: 1px 1px 2px 1px rgb(2, 79, 162) ;
+  transition: 0.2s linear ;
+}
+.googleicon{
+  position: absolute;
+  left: 33px;
+  top: 9px;
+  width: 20px;
+  height: 20px;
+}
+.line{
+  display: inline-block;
+  width: 157px;
+  border: 1px solid rgb(167, 164, 164);
+}
+.or-line{
+  text-align: center;
+  }
+.line-wrapper{
+  margin-bottom: 20px;
+}
